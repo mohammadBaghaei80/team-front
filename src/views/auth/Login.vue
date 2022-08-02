@@ -87,7 +87,7 @@ export default {
       try {
         const obj = Object.assign({}, this.objLogin);
         axios
-          .post("http://192.168.81.22:5000/auth/login", obj) // IPv4
+          .post("http://192.168.3.22:5000/auth/login", obj) // IPv4
           .then((response) => {
             console.log(response);
             this.tokenSetter(response.data.result);
