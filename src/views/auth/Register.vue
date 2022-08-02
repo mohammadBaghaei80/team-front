@@ -81,7 +81,7 @@ export default {
       try {
         const obj = Object.assign({}, this.objRegister);
         axios
-          .post("http://192.168.3.22:5000/auth/register", obj) // IPv4
+          .post("http://192.168.88.110:5000/auth/register", obj) // IPv4
           .then((response) => {
             console.log(response);
             this.$router.push("/login");

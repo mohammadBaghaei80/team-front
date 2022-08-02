@@ -13,6 +13,15 @@ const router = createRouter({
       },
     },
     {
+      path: "/dashboard/user",
+      name: "user",
+      components: {
+        default: () => import("../views/dashboard/user.vue"),
+        Header: () => import("../components/dashboard/Header.vue"),
+        Sidebar: () => import("../components/dashboard/Sidebar.vue"),
+      },
+    },
+    {
       path: "/dashboard/profile",
       name: "profile",
       components: {

@@ -122,6 +122,12 @@ export default {
         ],
       },
       {
+        name: "کاربران",
+        route: "/dashboard/user",
+        iconClass: "fa fa-circle-o nav-icon",
+        hasTree: false,
+      },
+      {
         name: "پروفایل",
         route: "/dashboard/profile",
         iconClass: "fa fa-circle-o nav-icon",
